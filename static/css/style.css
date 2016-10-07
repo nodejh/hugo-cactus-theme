@@ -398,7 +398,8 @@ span.code {
 
 pre {
     /*font-family: Menlo, Monaco, Courier;*/
-    white-space: pre-wrap;
+    /*white-space: pre-wrap;*/
+    overflow-x: scroll;
     /*border: 1px solid #ddd;*/
     /*padding: 20px;*/
     /*background-color: #fdfdfd;*/
