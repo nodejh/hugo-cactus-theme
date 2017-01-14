@@ -799,6 +799,7 @@ h2.month {
     padding: 10px 10px;
     border-left: 1px solid #cacaca;
 }
+
 .archive .post-time {
     display: inline-block;
     width: 60px;
@@ -807,29 +808,34 @@ h2.month {
 }
 
 @media screen and (max-width: 800px) {
-  .archive .post-time {
-    margin: 5px 0;
-    width: auto;
-    font-size: 13px;
-    display: block;
-  }
+    .archive .post-time {
+        margin: 5px 0;
+        width: auto;
+        font-size: 13px;
+        display: block;
+    }
 }
 
 .archive .post-link {
-    color: #5badf0;
+    color: #8a8a8a;
 }
+
 .archive .post-item:hover {
     color: #5694f1;
     padding-left: 13px;
     border-left: 1px solid #5badf0;
     transition: 0.3s ease-out;
 }
+.archive .post-item:hover .post-time,.archive .post-item:hover .post-link {
+    color: #5694f1;
+}
 
 .fa.fa-heart:hover {
-  color: #ff3356;
-  transition: 0.7s ease-out;
-  cursor: pointer;
+    color: #ff3356;
+    transition: 0.7s ease-out;
+    cursor: pointer;
 }
+
 
 /* CUSTOM ADDITIONS */
 
@@ -856,4 +862,29 @@ code {
     font-size: 14px;
     padding: 4px;
     font-weight: 600;
+}
+
+
+/**
+ * tags page
+ */
+
+.page-tags {
+    text-align: center;
+}
+
+.page-tags .tags {
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.page-tags .tags a {
+    color: #666;
+}
+
+.page-tags .tags:hover a {
+    color: #5694f1;
 }

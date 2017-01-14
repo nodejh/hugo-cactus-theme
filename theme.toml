@@ -8,8 +8,14 @@ features = ["disqus", "google analytics", "rss", "syntax highlighting", "blog", 
 min_version = 0.15
 
 [author]
+  name = "nodejh"
+  homepage = "//github.com/nodejh"
+
+[[original]]
+  # Ported the stardard theme of the Cactus for Mac static site generator to Jekyll
   name = "digitalcraftsman"
-  homepage = "//github.com/digitalcraftsman"
+  homepage = "//nick.balestra.ch/"
+  repo = "//github.com/digitalcraftsman"
 
 [[original]]
   # Ported the stardard theme of the Cactus for Mac static site generator to Jekyll

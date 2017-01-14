@@ -1,7 +1,5 @@
-<script   src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
-<!-- <script src="{{ .Site.BaseURL }}js/highlight.js"></script>
-<script>hljs.initHighlightingOnLoad();</script> -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
@@ -9,4 +7,12 @@
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
 {{ end }}
 
-{{ template "_internal/google_analytics.html" . }}
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?39843ea392201290bd6f76173d2e1633";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
